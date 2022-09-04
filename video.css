@@ -1,0 +1,87 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    /* padding-bottom: 1000px; */
+    background: url(https://www.befunky.com/images/prismic/57b2c48e-0268-4868-9bad-e295ae1d575c_landing-photo-to-cartoon-img6.jpeg?auto=avif,webp&format=jpg&width=863) no-repeat center top;
+    background-size: cover;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+/* Header */
+ul {
+    list-style-type: none;
+}
+header {
+    padding-top: 80px;
+
+}
+.content, .menu {
+    display: flex;
+}
+.content {
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.menu {
+    padding-top: 8px;
+}
+.menu  li a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    transition: 0.3s ease;
+    list-style-type: none;
+}
+.menu li a:hover {
+    background: #fff;
+    color: #152115;
+}
+.logo {
+    color: #152115;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+}
+.section {
+    padding-left: 50px;
+    max-width: 38%;
+}
+.logo span {
+    color: #2870db;
+}
+h1 {
+    font-size: 50px;
+    color: #152115;
+    font-weight: bold;
+    margin-top: 0;
+}
+p {
+    font-size: 18px;
+    color: #8b879d;
+    line-height: 40px;
+}
+.btn {
+    font-size: 20px;
+    background: #2870db;
+    padding: 20px 50px;
+    border-radius: 100px;
+    color: #fff;
+    outline: none;
+    margin-top: 60px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0px 22px 23.52px 0.48px rgba(17, 83, 165, 0.21);
+}
+.btn:hover {
+    color: #2870db;
+    background: #fff;
+    border: 1px solid #2870db;
+}

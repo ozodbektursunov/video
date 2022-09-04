@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+nav h2 {
+    color: rgb(49, 49, 49);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* Body */
+.main {
+    background-image: url(https://st.focusedcollection.com/14026668/i/1800/focused_177229392-stock-photo-young-man-working-home-office.jpg) ;
+    /* background: rgba(0, 0, 0, 0.1); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 440px;
+    width: 100%;
+}
+.orangered {
+    color: orangered;
+    background-color: transparent;
+    font-size: 30px;
+}
+h1, span {
+    color: orangered;
+}
+.text {
+    height: 400px;
+    width: 330px;
+    margin-left: 100px;
+    color: rgb(49, 49, 49);
+}
+.leftside {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    width: 290px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.start {
+    position: relative;
+    top: -70px;
+    background-color: orangered;
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    /* font-size: 22px; */
+    padding: 10px 15px;
+    text-align: center;
+}
+form {
+    position: relative;
+    top: -40px;
+    padding: 20px 30px;
+    text-align: center;
+    height: 350px;
+}
+input, textarea {
+    margin-top: 9px;
+    padding: 8px 10px;
+    width: 88%;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+button {
+    /* margin-top: 10px; */
+    margin-top: 9px;
+    padding: 5px 10px;
+    width: 96%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: rgb(0, 26, 255);
+    border: none;
+}
+.demo {
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.demo h3 {
+    color: rgb(0, 26, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.demo p {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.asosiy1 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 15%;
+    margin-top: 30px;
+}
+.asosiy1 img {
+    padding-right: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.asosiy2 p {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 500;
+}
+.asosiy2 {
+    margin-left: 290px;
+}
